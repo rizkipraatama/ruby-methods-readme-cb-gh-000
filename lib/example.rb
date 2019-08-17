@@ -7,3 +7,4 @@ def repeat
     puts phrase
   end
 end
+repeat
