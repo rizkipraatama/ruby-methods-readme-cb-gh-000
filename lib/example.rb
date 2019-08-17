@@ -1,13 +1,9 @@
 # Use this space to code along with the readme
 
 phrase = "Hello World!"
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
+
+def repeat
+  for i in 1..10 do
+    puts phrase
+  end
+end
