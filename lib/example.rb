@@ -2,9 +2,9 @@
 
 phrase = "Hello World!"
 
-def repeat
+def repeat (phrase)
   for i in 1..10 do
     phrase
   end
 end
-repeat
+repeat(phrase)
